@@ -1,0 +1,35 @@
+/* 
+selector = etiqueta html o un id o una clase; nos va permitor asignarle propiedades y valores
+ */
+ body {
+         background-color: rgb(152, 90, 210);
+         color:white;
+         font-family: "Delius", cursive;
+         text-align: center;
+         margin: 0;
+         padding: 0;
+
+ }
+ .contenido {
+ max-width: 600px;
+ margin: 50px auto;
+ }
+
+ h1{
+    color: #ffcc00;
+ }
+
+ a{
+    color:#ffcc00;
+    text-decoration: none;
+ }
+ a:hover {
+    text-decoration: underline;
+    color:black;
+ }
+ p {
+    margin-bottom: 20px;
+ }
+ .hasttag {
+    color: #00cc66;
+ }
