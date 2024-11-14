@@ -4,6 +4,6 @@ let letra = prompt('Ingrese un string con letras separadas por coma: ');
 
 let arrayLetra = letra.split(',');
 
-let arrayNumero = arrayLetra.map(Number);
+let arrayNumero = arrayLetra.map(String);
 
 console.log('El nuevo array es:', arrayNumero);
