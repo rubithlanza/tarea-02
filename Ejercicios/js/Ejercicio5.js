@@ -2,7 +2,7 @@
 las vocales. */
 
 const frase = prompt('Ingrese una frase: ');
-const letraFraseM = frase.toLowerCase ;
+const letraFraseM = frase.toLowerCase();
 let contadorA = 0;
 let contadorE = 0;
 let contadorI = 0;
